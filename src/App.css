@@ -1,3 +1,72 @@
-.App {
+body {
+  background-image: url('./images/background.png');
+}
+
+.HeaderSolarSystem {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.PlanetsSolarSystem {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+  border: 1px solid black;
+  padding: 50px;
+  width: 85%;
+  margin: auto;
+  background-color: rgb(0, 0, 0, 0.5);
+}
+
+.TitlePlanetsSolarSystem {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.ListPlanets {
   text-align: center;
+  border: 1px solid black;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  background-image: url('./images/vialactea.png');
+}
+
+.ListPlanets img {
+  transform: scale(1.0, 1.0);
+  transition-timing-function: ease;
+  transition-duration: 1s;
+}
+
+.ListPlanets img:hover {
+  cursor: pointer;
+  transform: scale(1.2, 1.2);
+  transition-timing-function: ease;
+  transition-duration: 1s;
+}
+
+.TitlePlanets {
+  border: 1px solid black;
+  background-color: white;
+}
+
+.MissionsPlanets {
+  border: 1px solid black;
+  width: 250px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  color: white;
+  background-color: rgb(0, 0, 0, 0.5);
+}
+
+.ContainerMissions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
 }
